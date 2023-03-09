@@ -1,10 +1,15 @@
 * {
+    box-sizing: border-box;
     font-family: Helvetica, sans-serif;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+    
+    margin: 30px;
+    text-align: center;
+}
+
+.imc, .nivelImc {
+    display: inline-block;
+    width: 45%;
 }
