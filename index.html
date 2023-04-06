@@ -15,7 +15,7 @@
 
 <body>
     <div class="container">
-        <div id="calc-container">
+        <div id="calc-container" class="hide">
             <h2>Calculadora de IMC</h2>
             <form id="imc-form">
                 <div class="form-inputs">
@@ -40,15 +40,20 @@
                 </div>
             </form>
         </div>
-        <div id="result-container">
+        <div id="result-container" >
             <p id="imc-number">Seu IMC: <span></span></p>
-            <p id="imc-info">Situação atual: <span></span></p>
+            <p id="imc-info">Situação atual: <span>Magreza</span></p>
             <h3>Confira as classificações:</h3>
             <div id="imc-table">
                 <div class="table-header">
-                    <h4>IMC</h4>
-                    <h4>Classificação</h4>
-                    <h4>Obesidade</h4>
+                    <p>IMC</p>
+                    <p>Classificação</p>
+                    <p>Obesidade</p>
+                </div>
+                <div class="table-data">
+                    <h4>Menor que 18,5</h4>
+                    <h4>Magreza</h4>
+                    <h4>0</h4>
                 </div>
             </div>
             <button id="back-btn">Voltar</button>
